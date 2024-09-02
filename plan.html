@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meal Planner</title>
+    <link rel="stylesheet" href="Plan.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Meal Planner</h1>
+        </header>
+        <main>
+            <h2>Select Cuisine</h2>
+            <div class="cuisine-options">
+                <button onclick="selectCuisine('Nigerian')">Nigerian Dishes</button>
+                <button onclick="selectCuisine('Italian')">Italian Dishes</button>
+                <button onclick="selectCuisine('Mexican')">Mexican Dishes</button>
+                <button onclick="selectCuisine('Chinese')">Chinese Dishes</button>
+            </div>
+
+            <h2>Select Meal Planner</h2>
+            <div class="planner-options">
+                <button onclick="navigateToPlanner('weekly')">Weekly Meal Planner</button>
+                <button onclick="navigateToPlanner('daily')">Daily Meal Planner</button>
+                <button onclick="navigateToPlanner('suggestion')">Quick Meal Suggestion</button>
+            </div>
+
+            <!-- Meal Plan Display Area -->
+            <div id="mealPlanContainer" class="meal-plan-container"></div>
+
+            <!-- Regenerate and Download Buttons -->
+            <button id="regenerateBtn" style="display:none;" onclick="regenerateMealPlan()">Regenerate Meal Plan</button>
+            <button id="downloadBtn" style="display:none;" onclick="downloadMealPlan()">Download Meal Plan</button>
+        </main>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>

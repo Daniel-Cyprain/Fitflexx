@@ -1,0 +1,857 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #014A43;
+}
+
+
+h1 {
+    margin: 0;
+}
+
+/* section {
+    background-color: wheat;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+} */
+
+h2 {
+    margin-top: 0;
+}
+
+.quick-actions button {
+    margin-right: 10px;
+    padding: 10px 20px;
+    background-color: #EF754F;
+    color: wheat;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.quick-actions button:hover {
+    background-color: #014A43;
+    ;
+}
+
+
+#ff{
+    top:30%;
+    left:4%;
+    color: #EF754F;
+    position: absolute;
+    font-size: 30px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+header {
+    text-align: right;
+    padding: 10px 0;
+    position: absolute;
+    /* margin-left: 40%; */
+    position: absolute;
+    background-color: #014a43;
+    width: 100%;
+    font-size: 13px;
+    left: 0;
+    top: 0;
+    border-bottom: 1px #EF754F solid;
+   /* height: 1rem; */
+   /* backdrop-filter: blur(3px); */
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    background-color: transparent;
+    border: none;
+    
+}
+
+nav ul li a {
+    color: #EF754F;
+    text-decoration: none;
+}
+
+
+
+
+
+
+@media (max-width:800px){
+    .container {
+        /* max-width: 1200px; */
+        margin: 0 auto;
+        padding: 20px;
+    }   
+    
+    h1 {
+        margin: 0;
+    }
+    
+    
+    h2 {
+        margin-top: 0;
+    }
+    
+    .quick-actions button {
+        margin-right: 10px;
+        padding: 10px 20px;
+        background-color: #EF754F;
+        color: wheat;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    
+    .quick-actions button:hover {
+        background-color: #014A43;
+        ;
+    }
+    
+    ul {
+        list-style-type: none;
+        padding: 0;
+    }
+    
+    ul li {
+        background: #f9f9f9;
+        margin: 5px 0;
+        padding: 10px;
+        border-radius: 4px;
+        /* box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1); */
+    }
+  
+    #ff{
+        top:30%;
+        left:4%;
+        color: #EF754F;
+        position: absolute;
+        font-size: 30px;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    header {
+        text-align: right;
+        padding: 10px 0;
+        position: absolute;
+        /* margin-left: 40%; */
+        position: absolute;
+        background-color: #014a43;
+        width: 100%;
+        font-size: 10px;
+        left: 0;
+        top: 0;
+        border-bottom: 1px #EF754F solid;
+       /* height: 1rem; */
+       /* backdrop-filter: blur(3px); */
+    }
+    #howitwrksnav{
+        display: none;
+    }
+    nav ul {
+        display: flex;
+        list-style: none;
+        column-gap: 0;
+        margin-left: 180px;
+    }
+    
+    nav ul li {
+        display: inline;
+        margin-right: 20px;
+        background-color: transparent;
+        border: none;
+        
+    }
+    
+    nav ul li a {
+        color: #EF754F;
+        text-decoration: none;
+    }
+
+}
+
+
+
+
+::-webkit-scrollbar{
+    height: 1px;
+    width: 2px;
+    }
+::-webkit-scrollbar-track{
+    background-color: transparent;
+
+}
+::-webkit-scrollbar-thumb{
+    background-color: #EF754F;
+    border-radius: 25px;
+    
+}
+.overview{
+    /* margin-top: 30%; */
+    height: 10rem;
+    width: 14.6rem;
+    padding: 15px;
+    border-radius: 25px;
+    text-align: left;
+    position:absolute;
+    top: 23%;
+    right: 48%;
+    font-size: 14px;
+    background-color: wheat;
+    color: #014A43;
+}
+.overview h2{
+    margin-top: 0;
+    text-align: center;
+}
+.overview p{
+    margin-left: 4%;
+}
+.overview:hover{
+    transform: scale(1.06);
+    border: 2px solid #EF754F;
+}
+.fitness-integration{
+    height: 10rem;
+    width: 14.6rem;
+    padding: 15px;
+    border-radius: 25px;
+    text-align: left;
+    position:absolute;
+    top: 23%;
+    right: 26.5%;
+    font-size: 14px;
+    background-color: wheat;
+    color: #014A43;
+}
+.fitness-integration h2{
+    margin-top: 0;
+    text-align: center;
+}
+.fitness-integration p{
+    margin-left: 4%;
+}
+.fitness-integration:hover{
+   transform: scale(1.06);
+   border: 2px solid #EF754F;
+}
+.quick-m-sug{
+    height: 10rem;
+    width: 14.6rem;
+    padding: 15px;
+    border-radius: 25px;
+    text-align: left;
+    position:absolute;
+    top: 23%;
+    right: 5%;
+    font-size: 14px;
+    background-color: wheat;
+}
+.quick-m-sug h2{
+    margin-top: 0;
+    text-align: center;
+}
+.quick-m-sug p{
+    margin-left: 4%;
+}
+.quick-m-sug:hover{
+transform: scale(1.06);
+/* border: 2px solid #EF754F; */
+}
+.quick-m-sug img{
+    height:12rem;
+    width: 20rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 25px;
+    right: 0;
+    border: #EF754F 2px solid;
+    filter: brightness(80%);
+}
+.quick-m-sug p{
+    position: absolute;
+    color: white;
+    font-size: 37px;
+    text-align: center;
+    left: 15%;
+    top: 0;
+    font-family:'pacifico', cursive;
+
+}
+.meal-plans{
+    height: 10rem;
+    width: 18rem;
+    padding: 15px;
+    border-radius: 25px;
+    text-align: left;
+    position:absolute;
+    top: 23%;
+    left: 5%;
+    font-size: 13px;
+    background-color: wheat;
+}
+.meal-plans h2{
+    margin-top: 4%;
+    text-align: center;
+}
+.meal-plans p{
+    margin-left: 4%;
+}
+.meal-plans:hover{
+transform: scale(1.06);
+/* border: 2px solid #EF754F; */
+}
+.meal-plans img{
+    height:12rem;
+    width: 20rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 25px;
+    right: 0;
+    border: #EF754F 2px solid;
+    filter: brightness(80%);
+}
+.meal-plans p{
+    position: absolute;
+    color: white;
+    font-size: 33px;
+    text-align: center;
+    left: 12%;
+    font-family:'pacifico', cursive;
+
+}
+.quick-actions{
+    background-color: wheat;
+    margin-top: 31%;
+    padding: 20px;
+    border-radius: 25px;
+    width: 29rem;
+    left: 38%;
+    position: absolute;
+    color: #014A43;
+}
+.writeup-style{
+    margin-top: 21%;
+    left: -15%;
+    color: rgb(194, 169, 124);
+    position: absolute;
+    /* font-size: larger; */
+    
+    /* border: 3px rgb(194, 169, 124) dashed; */
+    border-radius: 20px;
+    padding: 10px;
+    filter: brightness(75%);
+}
+.writeup-style img{
+    height: 800px;
+   
+}
+.hisw{
+     position: absolute;
+     color: white;
+     font-family:'pacifico', cursive;
+     top: 86%;
+     left: 7%;
+     text-align: center;
+     font-size: 50px;
+}
+.meal-plan-start{
+    height: 15rem;
+    width: 12rem;
+    background-color: #ffffff;
+    position: absolute;
+    border-top-left-radius: 100%;
+    border-bottom-left-radius: 100%;
+    top: 76%;
+    right: 0;
+    text-align: center;
+    color: #014A43;
+    cursor: pointer;
+}
+.meal-plan-start:hover{
+    transform: scale(1.04);
+    background-color: #EF754F;
+    border: 3px white dashed;
+    color: white;
+}
+.meal-plan-start h2{
+    margin-top: 40%;
+    margin-left: 10%;
+    font-family:'pacifico', cursive;
+
+}
+hr{
+    position: absolute;
+    margin-top: 27%;
+    width: 45rem;
+    margin-left: 32%;
+    border: 1px solid rgba(245, 222, 179, 0.705);
+}
+.vert-hr{
+    height: 8rem;
+    border-right: white 2px dashed;
+    top: 93%;
+    position: absolute;
+    left: 58%;
+}
+.blank-table{
+    height: 20rem;
+    width: 40rem;
+    background-color: #EF754F;
+    top: 127%;
+    right:2%;
+    position: absolute;
+    border-radius: 25px;
+}
+.vert-hr2{
+    height: 8rem;
+    border-right: white 2px dashed;
+    top: 148%;
+    position: absolute;
+    left: 18%;
+}
+.contact{
+    width: 100%;
+    height: 20rem;
+    position: absolute;
+    background-color: #333333;
+    margin-top: 120rem;
+    
+}
+.contact p{
+    color: white;
+    text-align: center;
+}
+#ff23  {
+    color: rgb(255, 255, 255);
+
+}
+#prognserv{
+    display: flex;
+    color: white;
+    margin-top: 5%;
+}
+#programs{
+    margin-left: 10%;
+    position: absolute;
+    color: white;
+}
+#service{
+    margin-left: 30%;
+    position: absolute;
+}
+#contact-us{
+    margin-left: 60%;
+}
+#contact-us input{
+    width: 20rem;
+    height: 2rem;
+    border: #014A43 solid 1px;
+    border-radius: 25px;
+    padding: 5px;
+}
+
+#btn{
+    /* position: absolute; */
+    margin-top: 4.5%;    
+}
+#btn button{
+    height: 40px;
+    width: 100px;
+    background-color: #014A43;
+    color: white;
+    border: white 1px solid;
+    border-radius: 25px;
+    margin-left: 5%;
+}
+.contact hr{
+    /* position: absolute; */
+    border: #014a4331 solid 1px;
+    margin-top: 7%;
+    width: rem;
+}
+.pic2{
+    position: absolute;
+    left: -10%;
+    top: 156%;
+}
+.pic2 img{
+    height: 750px;
+}
+  .lgw{
+    top: 196%;
+    left: 10%;
+    font-family:'pacifico', cursive;
+    position: absolute;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+  }
+  #uid{
+    position: absolute;
+    top: 13%;
+    color: wheat;
+    font-size: 30px;
+    left: 4%;
+  }
+  #uidp{
+    position: absolute;
+    top: 16%;
+    color: wheat;
+    font-size: 13px;
+    left: 4%;
+  }
+ 
+
+
+
+
+
+
+
+  @media (max-width:800px){
+    body{
+        width:30px;
+    }
+    .overview{
+        /* margin-top: 30%; */
+        height: 8rem;
+        width: 10rem;
+        padding: 15px;
+        border-radius: 25px;
+        text-align: left;
+        position:absolute;
+        top: 23%;
+        /* right: 48%; */
+        left: 2%;
+        font-size: 14px;
+        background-color: wheat;
+        color: #014A43;
+    }
+    .overview h2{
+        margin-top: 0;
+        text-align: center;
+    }
+    .overview p{
+        margin-left: 4%;
+    }
+    .overview:hover{
+        transform: scale(1.06);
+        border: 2px solid #EF754F;
+    }
+    .fitness-integration{
+        height: 8rem;
+        width: 10rem;
+        padding: 15px;
+        border-radius: 25px;
+        text-align: left;
+        position:absolute;
+        top: 23%;
+        right: 2%;
+        font-size: 14px;
+        background-color: wheat;
+        color: #014A43;
+    }
+    .fitness-integration h2{
+        margin-top: 0;
+        text-align: center;
+    }
+    .fitness-integration p{
+        margin-left: 4%;
+    }
+    .fitness-integration:hover{
+       transform: scale(1.06);
+       border: 2px solid #EF754F;
+    }
+    .quick-m-sug{
+        height: 10rem;
+        width: 14.6rem;
+        padding: 15px;
+        border-radius: 25px;
+        text-align: left;
+        position:absolute;
+        top: 100%;
+        left: 10%;
+        font-size: 14px;
+        background-color: wheat;
+    }
+    .quick-m-sug h2{
+        margin-top: 0;
+        text-align: center;
+    }
+    .quick-m-sug p{
+        margin-left: 4%;
+    }
+    .quick-m-sug:hover{
+    transform: scale(1.06);
+    /* border: 2px solid #EF754F; */
+    }
+    .quick-m-sug img{
+        height:12rem;
+        width: 20rem;
+        position: absolute;
+        top: 0;
+        left: 0;
+        border-radius: 25px;
+        right: 0;
+        border: #EF754F 2px solid;
+        filter: brightness(80%);
+    }
+    .quick-m-sug p{
+        position: absolute;
+        color: white;
+        font-size: 37px;
+        text-align: center;
+        left: 15%;
+        top: 0;
+        font-family:'pacifico', cursive;
+    
+    }
+    .meal-plans{
+        height: 10rem;
+        width: 18rem;
+        padding: 15px;
+        border-radius: 25px;
+        text-align: left;
+        position:absolute;
+        top: 70%;
+        left: 10%;
+        font-size: 13px;
+        background-color: wheat;
+    }
+    .meal-plans h2{
+        margin-top: 4%;
+        text-align: center;
+    }
+    .meal-plans p{
+        margin-left: 4%;
+    }
+    .meal-plans:hover{
+    transform: scale(1.06);
+    /* border: 2px solid #EF754F; */
+    }
+    .meal-plans img{
+        height:12rem;
+        width: 20rem;
+        position: absolute;
+        top: 0;
+        left: 0;
+        border-radius: 25px;
+        right: 0;
+        border: #EF754F 2px solid;
+        filter: brightness(80%);
+    }
+    .meal-plans p{
+        position: absolute;
+        color: white;
+        font-size: 33px;
+        text-align: center;
+        left: 12%;
+        font-family:'pacifico', cursive;
+    
+    }
+    hr{
+        display: none;
+    }
+    .quick-actions{
+        background-color: wheat;
+        margin-top: 100%;
+        padding: 20px;
+        border-radius: 25px;
+        width: 22rem;
+        left: 2%;
+        position: absolute;
+        color: #014A43;
+    }
+    .quick-actions button{
+        margin-bottom: 3%;
+    }
+    .writeup-style{
+        margin-top: 21%;
+        left: -15%;
+        color: rgb(194, 169, 124);
+        position: absolute;
+        display: none;
+        /* font-size: larger; */
+        
+        /* border: 3px rgb(194, 169, 124) dashed; */
+        border-radius: 20px;
+        padding: 10px;
+        filter: brightness(75%);
+        width: 100%;
+    }
+    .writeup-style img{
+        height: 800px;
+       
+    }
+    .hisw{
+         /* position: absolute; */
+         color: white;
+         font-family:'pacifico', cursive;
+         top: 125%;
+         left: 25%;
+         text-align: center;
+         font-size: 50px;
+    }
+    .meal-plan-start{
+        height: 15rem;
+        width: 12rem;
+        background-color: #ffffff;
+        position: absolute;
+        border-top-left-radius: 100%;
+        border-bottom-left-radius: 100%;
+        top: 76%;
+        right: 0;
+        text-align: center;
+        color: #014A43;
+        cursor: pointer;
+        display: none;
+    }
+    .meal-plan-start:hover{
+        transform: scale(1.04);
+        background-color: #EF754F;
+        border: 3px white dashed;
+        color: white;
+    }
+    .meal-plan-start h2{
+        margin-top: 40%;
+        margin-left: 10%;
+        font-family:'pacifico', cursive;
+    
+    }
+    hr{
+        position: absolute;
+        margin-top: 27%;
+        width: 45rem;
+        margin-left: 32%;
+        border: 1px solid rgba(245, 222, 179, 0.705);
+    }
+    .vert-hr{
+        height: 8rem;
+        border-right: white 2px dashed;
+        top: 93%;
+        position: absolute;
+        left: 50%;
+    }
+    .blank-table{
+        height: 20rem;
+        width: 40rem;
+        background-color: #EF754F;
+        top: 127%;
+        right:2%;
+        position: absolute;
+        border-radius: 25px;
+        display: none;
+    }
+    .vert-hr2{
+        height: 8rem;
+        border-right: white 2px dashed;
+        top: 145%;
+        position: absolute;
+        left: 50%;
+    }
+    .contact{
+        width: 100%;
+        height: 10rem;
+        position: absolute;
+        background-color: #333333;
+        margin-top: 118.5rem;
+        font-size: small;
+        
+    }
+    .contact p{
+        color: white;
+        text-align: center;
+    }
+    #ff23  {
+        color: rgb(255, 255, 255);
+    
+    }
+    #prognserv{
+        display: flex;
+        color: white;
+        margin-top: 5%;
+    }
+    #programs{
+        margin-left: 10%;
+        position: absolute;
+        color: white;
+        display: none;
+    }
+    #service{
+        margin-left: 30%;
+        position: absolute;
+        display: none;
+    }
+    #contact-us{
+        margin-left: 5%;
+        
+    }
+    #contact-us input{
+        width: 15rem;
+        height: 2rem;
+        border: #014A43 solid 1px;
+        border-radius: 25px;
+        padding: 5px;
+    }
+    
+    #btn{
+        /* position: absolute; */
+        margin-top: 12.5%;    
+    }
+    #btn button{
+        height: 40px;
+        width: 100px;
+        background-color: #014A43;
+        color: white;
+        border: white 1px solid;
+    }
+    .contact hr{
+        /* position: absolute; */
+        border: #014a4331 solid 1px;
+        margin-top: 7%;
+        width: 65rem;
+    }
+    .pic2{
+        position: absolute;
+        left: 0.5%;
+        top: 156%;
+        /* width: 100%; */
+        
+    }
+    .pic2 img{
+        height: 450px;
+    }
+      .lgw{
+        top: 170%;
+        left: 28%;
+        font-family:'pacifico', cursive;
+        position: absolute;
+        font-size: 50px;
+        text-align: center;
+        color: white;
+      }
+      #uid{
+        position: absolute;
+        top: 13%;
+        color: wheat;
+        font-size: 30px;
+        left: 4%;
+      }
+      #uidp{
+        position: absolute;
+        top: 16%;
+        color: wheat;
+        font-size: 13px;
+        left: 4%;
+      }
+    
+  }

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quick Meal Suggestion</title>
+    <link rel="stylesheet" href="quick-meal-styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Quick Meal Suggestion</h1>
+        </header>
+        <main>
+            <h2>Select Cuisine</h2>
+            <div class="cuisine-options">
+                <button onclick="selectCuisine('Nigerian')">Nigerian Dishes</button>
+                <button onclick="selectCuisine('Italian')">Italian Dishes</button>
+                <button onclick="selectCuisine('Mexican')">Mexican Dishes</button>
+                <button onclick="selectCuisine('Chinese')">Chinese Dishes</button>
+            </div>
+
+            <div id="mealPlanContainer" class="meal-plan-container"></div>
+
+            <button id="regenerateBtn" style="display:none;" onclick="regenerateMealSuggestion()">Regenerate Suggestion</button>
+            <button id="downloadBtn" style="display:none;" onclick="downloadMealSuggestion()">Download Suggestion</button>
+        </main>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
